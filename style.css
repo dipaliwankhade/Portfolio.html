@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+body{
+    color: #ededed;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 100; */
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+/* Reset default margin and padding for the list */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the navigation bar */
+  nav {
+    background-color:#03c4ef;
+    padding: 10px;
+    float: right;
+    max-width: 100% /* Float the navigation bar to the left */
+  }
+  
+  /* Style for navigation links */
+  nav a {
+    display: inline-block;
+    justify-content: content;
+    font-size: 25px;
+     color: white;;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 35px;
+     transition: .3s;
+     padding: 8px 16px; 
+  }
+  
+  /* Style for navigation links on hover */
+  nav a:hover {
+    background-color:#03c4ef ;
+  }
+  
+  /* Style for the navigation list items (optional) */
+  nav li {
+    display: inline;
+  }
+  
+  /* Style for the content on the right side */
+  .content {
+    margin-left: 200px; /* Set a margin to create space for the navigation bar */
+    padding: 20px;
+  }
+  
+  /* Additional styles for the content */
+  .content h1 {
+    font-size: 24px;
+  }
+  
+  .content p {
+    font-size: 16px;
+  }
+
+ .navbar a:hover{
+    color: #03c4ef;
+} 
+.home{
+    
+    width:100%;
+justify-content: space-between;
+height: 100vh;
+background-color: rgb(7, 70, 70);
+}
+.A2 img{
+    margin-left: 70%;
+  padding-top: 4px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+
+}
+.home_content{
+    max-width: 600px;
+}
+.home_content h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.home_content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home_content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+    color: #fff;
+}
+.home_content p{
+    font-size: 20px;
+    gap: 10px;
+   
+}
+.home_content h3 span{
+     color: #0ef;
+     
+}
+.home_1 a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #0ef;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    border-radius: 50%;
+}
+.home_1 a:hover{
+    background: #0ef;
+    color: #cadce9;
+    box-shadow: 0 0 20px #0ef;
+}
+.btn_box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn_box:hover{
+    box-shadow:  0 0 5px cyan,
+    0 0 25px cyan,0 0 50px cyan,0 0 100px cyan,0 0 200px cyan
+
+}
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
